@@ -1,0 +1,481 @@
+== Changelog ==
+
+2024-07-22 - version 5.4.0
+* Introducing real-time support for PDF indexing.
+* Verified compatibility with the latest WordPress version 6.6
+
+
+2024-07-16 - version 5.3.9
+* UI enhancements.
+
+
+2024-07-02 - version 5.3.8
+* Updated description, plugin name, and tags.
+
+
+2024-07-02 - version 5.3.7
+* Bug Fixes.
+
+
+2024-07-01 - version 5.3.6
+* UI enhancements.
+
+
+2024-06-26 - version 5.3.5
+* Minor Bug Fixes.
+
+
+2024-06-21 - version 5.3.4
+* Added support for add to cart in search for woocommerce.
+
+
+2024-06-14 - version 5.3.3
+* Minor Bug Fixes.
+
+
+2024-06-11 - version 5.3.2
+* Added support for real-time indexing when a product is created or updated through the Woo REST API.
+* Updated plugin release process to meet WordPress standards.
+* Enabled search functionality on the site after login.
+
+
+2024-05-27 - version 5.3.1
+* Enhanced the mechanism for subsequent (real-time) updates.
+* Improved log structure for better analysis.
+
+
+2024-05-21 - version 5.3.0
+* Implemented a retry mechanism for indexing.
+* Skipped problematic product attributes during indexing to ensure smoother operation.
+* Enhanced the mechanism for subsequent updates.
+
+
+2024-04-15 - version 5.2.7
+* Cleaned up Contributors list in Readme.txt
+
+
+2024-04-03 - version 5.2.6
+* Updated Description & title in Readme.txt
+
+
+2024-04-01 - version 5.2.5
+* Updated short description (Limited to 150 Chars) in Readme.txt
+
+
+2024-04-01 - version 5.2.4
+* meta description update in Readme.txt
+
+
+2024-03-28 - version 5.2.3
+* Updated the Installation instruction & short description in Readme.txt
+
+
+2024-03-27 - version 5.2.2
+* Updated FAQ Section in Readme.txt
+
+
+2024-03-20 - version 5.2.1
+* Added new contributors.
+* Updated tags.
+
+
+2024-03-19 - version 5.2.0
+* Addressed tags and contributor warnings
+
+
+2024-03-13 - version 5.1.32
+* UI enhancements.
+
+
+2024-03-13 - version 5.1.31
+* Show friendly message after the first time indexing started
+* Changes in the deactivation form for OTP-Based Signups
+* Added mandatory check for some of the deactivate reasons for signed-up customers
+* Messaging below deactivate button in search results
+
+
+2024-03-07 - version 5.1.30
+* Provide an option to modify the SERP URL, title and query parameter.
+* Shortcode option for displaying the ExpertRec Search Bar.
+* Alternative signup method for non-Gmail users.
+* Introduce a new log file for subsequent updates.
+* Enhance the user experience.
+
+
+2024-02-16 - version 5.1.29
+* Added a feature to show product brand attribute in search UI.
+* Improved log structure for better analysis.
+* UI enhancements.
+* Bug fixes.
+
+
+2024-02-01 - version 5.1.28
+
+* Resolved decoding issue.
+* UI enhancements.
+* Moved APIs from Ajax to Rest APIs.
+* Improved log structure for better analysis.
+* Added new deactivation reasons.
+* Verified compatibility with the latest WordPress version 6.4.3.
+
+
+2024-01-08 - version 5.1.27
+
+* Implemented Lining in the build process & Addressed Lint issues
+
+
+2023-12-22 - version 5.1.26
+
+* Improved indexing for product variants.
+* The UI now displays the date and time of the full index and subsequent update index.
+* Updated UI for sign-in and login.
+* Resolved deactivation bug.
+* Included email and phone to sign-up click.
+
+
+2023-12-15 - version 5.1.25
+
+* Fixed linting issues.
+* Implemented automatic detection of the country code during sign-up.
+
+
+2023-11-26 - version 5.1.24
+
+* Support for indexing product variants.
+
+
+2023-11-16 - version 5.1.23
+
+* Provide an option to turn on or off sentry.
+
+
+2023-11-13 - version 5.1.22
+
+* UI Improvements
+* Performance improvements & Optimizations
+* Includes New Features Merchandising, AI Features etc.
+
+
+2023-11-02 - version 5.1.21
+
+* Bug fixes (post/page creation issue)
+* Removed warning display on pages (in debug mode Wordpress)
+* Handled , in category names
+
+
+2023-10-25 - version 5.1.20
+
+* Introducing the new 'Select Doc Types' feature, which allows users to have control over what they want to index and view search results accordingly.
+* Users can now easily save their preferred Indexing Speed.
+* The UI now displays the date and time of the last successful sync.
+* Verified compatibility with the latest WordPress version 6.3.1.
+* UI Improvements.
+
+
+2023-10-17 - version 5.1.19
+
+* Added tracking ID for indexing.
+
+
+2023-10-11 - version 5.1.18
+
+* Implemented dedicated post type for Category list
+
+
+2023-10-03 - version 5.1.17
+
+* Addressed the encoding issue.
+
+
+2023-09-24 - version 5.1.16
+
+* Enhanced Indexing Progress Notifications and Processing.
+* UI Improvements.
+
+
+2023-09-02 - version 5.1.15
+
+* UI Improvements.
+* Introduce new support features.
+
+
+2023-08-26 - version 5.1.14
+
+* UI Improvements.
+
+
+2023-08-12 - version 5.1.13
+
+* Improvements on the indexing process & status control
+* Removed Metadata fields from 1st time Indexing by default and provided configuration option
+* Brought compatibility till php 5.6 (from 7.4)
+* Implemented Category Search & faceting
+
+
+2023-08-02 - version 5.1.12
+
+* Added warning for ongoing indexing during Dashboard page navigation
+* Introduced Search Preview option
+
+
+2023-07-25 - version 5.1.11
+
+* UI Improvements.
+
+
+2023-07-21 - version 5.1.10
+
+* Addressed Linting Issues.
+
+
+2023-07-16 - version 5.1.9
+
+* Improved changes in the minification process
+
+
+2023-07-10 - version 5.1.8
+
+* UI Improvements
+* Minor Bug Fixes
+
+
+2023-07-03 - version 5.1.7
+
+* Extra character of ; introduced on the page. - fixed.
+
+
+2023-06-25 - version 5.1.6
+
+* Many Caching plugins cached our JS wrongly. Fixing the JS so that it will pass through the caching plugins.
+* Plugin upgrade fix.
+
+
+2023-06-15 - version 5.1.5
+
+* Added support for older versions of WordPress starting from 5.6.
+* Improved UI for better user experience.
+* Auto Indexing.
+* Bug fixes for Product Attributes and Meta Data Fields.
+
+
+2023-06-05 - version 5.1.4
+
+* Bug fixes.
+
+
+2023-05-29 - version 5.1.3
+
+* Fix Meta Key Bug.
+
+
+2023-05-19 - version 5.1.2
+
+* Improved crawl UI.
+
+
+2023-05-19 - version 5.1.1
+
+* New User Interface (UI): We have redesigned the interface to make it more intuitive and user-friendly.
+* Enhanced Control and Processing of Indexing and Reindexing: We have implemented better controls and processes to ensure a smoother experience.
+* API Key and Secret Key Integration for Existing Account Login: You can now log into your existing account using API Key and Secret Keys, enhancing security and convenience.
+* Product Attributes and Meta Data Fields Indexing Options: We have expanded the indexing capabilities to include product attributes and metadata fields, enabling more comprehensive search results.
+* Improved Logging Mechanism: Our latest version includes a more robust logging mechanism, providing better visibility into the search process.
+
+
+2023-01-05 - version 4.1.30
+
+* Optimized logging for crawl based integration.
+
+
+2022-12-27 - version 4.1.29
+
+* Added capability to change default batch size for WP ECOM Customer
+* Ajaxified the selection of the Existing/New Search Bar option on the Dashboard Page.
+
+
+2022-12-15 - version 4.1.28
+
+* Display message when indexing is in progress
+* Improve messaging on the Home page
+
+
+2022-12-05 - version 4.1.27
+
+* Added checkpoint for backend logs
+* Removed update button for Search Bar setting
+
+
+2022-11-25 - version 4.1.26
+
+* Improved logging
+
+
+2022-11-13 - version 4.1.25
+
+* Updated checkpoint for logs file
+
+
+2022-11-07 - version 4.1.24
+
+* Added Search Results page customization support
+
+
+2022-10-27 - version 4.1.23
+
+* Improved performance
+* Optimized scripts and flow
+
+
+2022-10-19 - version 4.1.22
+
+* Improved scripts addition
+
+
+2022-10-11 - version 4.1.21
+
+* Change feedback form
+* Improved home page
+* Resolved layout and Index option issue
+* Added logs
+
+
+2022-10-01 - version 4.1.20
+
+* home page improvement
+* prioritizing WooCommerce products
+* crawl status improvement 
+
+
+2022-09-24 - version 4.1.19
+
+* home page update
+* input batch size option
+
+
+2022-09-04 - version 4.1.18
+
+* taxonomy improvement
+
+
+2022-08-29 - version 4.1.17
+
+* plugin events updates
+* updated/improved logs
+* indexing improvement
+
+
+2022-08-26 - version 4.1.16
+
+* Released on 26th Aug 2022.
+* Handled errors and warnings.
+
+
+2022-08-19 - version 4.1.15
+
+* Released on 19th Aug 2022.
+* Improved post types counting
+
+
+2022-08-19 - version 4.1.14
+
+* Released on 19th Aug 2022.
+* Improved shortcode removal.
+
+
+2022-08-11 - version 4.1.13
+
+* Released on 11st Aug 2022.
+* Added support for indexing PDF in real-time.
+
+
+2022-08-01 - version 4.1.12
+
+* Released on 1st Aug 2022.
+* Improved error reporting of the plugin.
+
+
+2022-07-13 - version 4.1.11
+
+* Released on 13th July 2022.
+* Plugin version is shown in UI.
+* Improved error reporting of the plugin.
+* Improved progress of indexing in UI.
+* Improved feedback form.
+
+
+2022-06-30 - version 4.1.10
+
+* Released on 30th June 2022.
+* Restricted plugin script's scope to the WordPress admin panel only.
+* Improved indexing of attributes having a date.
+* Fixed custom fields indexing issue.
+
+
+2022-06-24 - version 4.1.9
+
+* Released on 24th June 2022.
+* Auto detection of indexing option for woo-commerce.
+* Improved text labels in plugin UI.
+
+
+2022-06-17 - version 4.1.8
+
+* Released on 17th June 2022.
+* Added feedback form to capture the user experience when the plugin is deactivated.
+
+
+2022-06-09 - version 4.1.7
+
+* Released on 9th June 2022.
+* Fixed indexing issue for PHP version less than 7.2.
+* Removed "Only dropdown" support from the plugin's layout tab. Users can still select that from Expertrec's dashboard.
+* Removed excessive logging.
+
+
+2022-06-02 - version 4.1.6
+
+* Released on 2nd June 2022.
+* Support for custom fields.
+* Addressed Empty content post issue on a page.
+
+
+2022-05-30 - version 4.1.5
+
+* Released on 30th May 2022.
+* Adopted composer.
+* Improved error reporting of the plugin.
+
+
+2022-05-12 - version 4.1.4
+
+* Released on 12th May 2022.
+* Fixed advanced tab buttons issue.
+* Improved support for the currency and WooCommerce brands.
+* Improved plugin activity for activation, deactivation, and uninstallation.
+
+
+2022-05-05 - version 4.1.3
+
+* Released on 5th May 2022.
+* Minor fix.
+
+
+2022-05-03 - version 4.1.2
+
+* Released on 3rd May 2022.
+* Re-indexing products whose stock status changes from in-stock to out-of-stock and vice versa.
+
+
+2022-04-22 - version 4.1.1
+
+* Released on 22nd April 2022.
+* Fixed issue with first-time indexing.
+
+
+2022-04-20 - version 4.1.0
+
+* Released on 20th April 2022.
+* Added support for Woocommerce.
+* Added Google sign-in.
+* Completly different UI from the older plugin.
+* Improved and faster search with database indexing.

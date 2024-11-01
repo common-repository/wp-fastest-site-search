@@ -1,0 +1,45 @@
+<div class="expertrec-modal">
+    <div class="expertrec-modal-content">
+        <span class="expertrec-deactivate-close-button" onclick="expertrec_deactivate_close()">&times;</span>
+        <form class="expertrec-deactivate-form">
+            <h2>Feedback Form</h2>
+
+            <hr>
+            <h4>If you encounter any issues and require assistance from us, please contact our
+                <a href="https://calendly.com/melchi-expertrec/instant-help" target="_blank" rel="noreferrer">
+                    Support
+                </a>
+                team for help.
+            </h4>
+            <p id="expertrec-sign-up-error"></p>
+            <p id="expertrec-reason-deactivation">Reason for deactivation</p>
+            <select class="expertrec-deactivate-select" required="required" onchange="expertrec_updateErrorMessage(this.value)">
+                <option value="0">Select</option>
+                <option value="1">Installed the plugin, but search is not working</option>
+                <option value="2">Search Results UI doesn't match my site theme</option>
+                <option value="3">UI glitches in the Search Results Page</option>
+                <option value="4">Search Results are not yielding correct results</option>
+                <option value="5">Doesn't support multiple languages in search</option>
+                <option value="6">Not seeing Variant Data in Search Results</option>
+                <option value="7">Expensive or unexpected cost</option>
+                <option value="8">Limited or Missing features</option>
+                <option value="9">Other</option>
+            </select>
+
+            <p id="deactivation-label">Describe your experience</p>
+            <div class="expertrec-deactivate-box">
+                <textarea class="expertrec-deactivate-input" maxlength="1000"
+                    oninput="updateErrorMessageTextarea(this.value)"></textarea>
+                <div id="expertrec-text-validation-error"></div>
+                <div id="expertrec-theme-mismatch-message"></div>
+                <div id="error-message"></div>
+            </div>
+        </form>
+        <div class="expertrec-deactivate-btn-div">
+            <button class="expertrec-deactivate-btn" onclick="expertrec_deactivate()">Submit & Deactivate</button>
+            <button class="expertrec-deactivate-cancel-btn" onclick="expertrec_deactivate_close()">Cancel</button>
+        </div>
+    </div>
+</div>
+
+  
